@@ -1,0 +1,27 @@
+{
+	"name": "DailyArticleCard",
+	"version": "1.0.0",
+	"author": [
+		"Christian Daniel Jensen",
+		"OpenAI"
+	],
+	"url": "https://continuum-universes-wiki.com",
+	"descriptionmsg": "dailyarticlecard-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"AutoloadNamespaces": {
+		"ContinuumUniverses\\DailyArticleCard\\": "includes/"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ContinuumUniverses\\DailyArticleCard\\Hooks::onParserFirstCallInit"
+	},
+    "MessagesDirs": {
+        "DailyArticleCard": [
+            "i18n"
+        ]
+    },
+    "ExtensionMessagesFiles": {
+        "DailyArticleCardMagic": "DailyArticleCard.i18n.magic.php"
+    },
+    "manifest_version": 2
+}

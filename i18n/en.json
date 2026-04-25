@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"OpenAI"
+		]
+	},
+	"dailyarticlecard-desc": "Displays one deterministic random article per day using PageImages and a custom #dailydesc parser function",
+	"dailyarticlecard-usage-category": "Pages using DailyArticleCard"
+}
